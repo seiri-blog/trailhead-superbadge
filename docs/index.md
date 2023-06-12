@@ -68,10 +68,10 @@ hide:
 ---
 
 <p align="center"> 
-<img src="../SalesforceBadge/2021-03_Badge_SF-Certified_Administrator/2021-03_Badge_SF-Certified_Administrator_500x490px.png" width='10%'/>
-<img src="../SalesforceBadge/2021-03_Badge_SF-Certified_JavaScript-Developer/2021-03_Badge_SF-Certified_JavaScript-Developer-I_500x490px.png" width='10%'/>
-<img src="../SalesforceBadge/2021-03_Badge_SF-Certified_Platform-Developer-I/2021-03_Badge_SF-Certified_Platform-Developer-I_500x490px.png" width='10%'/>
-<img src="../SalesforceBadge/2021-03_Badge_SF-Certified_Platform-Developer-II/2021-03_Badge_SF-Certified_Platform-Developer-II_500x490px.png" width='10%'/>
+<img src="https://github.com/RyuSeiri/RyuSeiri/blob/main/SalesforceBadge/2021-03_Badge_SF-Certified_Administrator/2021-03_Badge_SF-Certified_Administrator_500x490px.png" width='10%'/>
+<img src="https://github.com/RyuSeiri/RyuSeiri/blob/main/SalesforceBadge/2021-03_Badge_SF-Certified_JavaScript-Developer/2021-03_Badge_SF-Certified_JavaScript-Developer-I_500x490px.png" width='10%'/>
+<img src="https://github.com/RyuSeiri/RyuSeiri/blob/main/SalesforceBadge/2021-03_Badge_SF-Certified_Platform-Developer-I/2021-03_Badge_SF-Certified_Platform-Developer-I_500x490px.png" width='10%'/>
+<img src="https://github.com/RyuSeiri/RyuSeiri/blob/main/SalesforceBadge/2021-03_Badge_SF-Certified_Platform-Developer-II/2021-03_Badge_SF-Certified_Platform-Developer-II_500x490px.png" width='10%'/>
 </p>
 
 <p align="center"> 

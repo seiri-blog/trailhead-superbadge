@@ -11,7 +11,8 @@ site_author: seiri
 nav:
   - トップ: index.md
   - ブログ: http://seiri.blog
-  - プロファイル: http://seiri.blog/profile.md
+  - プロファイル: http://seiri.blog/profile
+  - アーカイブ: http://seiri.blog/profile
   - 問合せ: dissusion.md
 
 theme:
@@ -31,13 +32,13 @@ theme:
       primary: white
       scheme: default
       toggle:
-        icon: material/weather-night
+        icon: asserts/material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: black
       scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: asserts/material/weather-sunny
         name: Switch to light mode
   icon:
     admonition:
@@ -72,7 +73,7 @@ theme:
     - announce.dismiss
     - content.code.annotate
 social:
-  - icon: "fontawesome/brands/github"
+  - icon: "asserts/fontawesome/brands/github"
     link: "https://github.com/Ryuseiri"
 markdown_extensions:
   # Python Markdown
@@ -110,4 +111,4 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - stylesheets/extra.css
+  - asserts/stylesheets/extra.css

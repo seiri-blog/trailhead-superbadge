@@ -1,76 +1,19 @@
 {% extends "base.html" %}
 {% block scripts %}
-  <!-- Add scripts that need to run before here -->
-  {{ super() }}
-  <!-- Add scripts that need to run afterwards here -->
-  <div id="sakana-widget" style="position: fixed;bottom: 20px;right:40px;"></div>
-  <script>
-    function initSakanaWidget() {
-      new SakanaWidget({ autoFit: true })
-        .setState({ i: 0.001, d: 1 })
-        .mount("#sakana-widget");
-    }
-  </script>
-  <script
-    async
-    onload="initSakanaWidget()"
-    src="https://cdn.jsdelivr.net/npm/sakana-widget@2.2.2/lib/sakana.min.js"
-  ></script>
+<!-- Add scripts that need to run before here -->
+{{ super() }}
+<!-- Add scripts that need to run afterwards here -->
 {% endblock %}
 
 {% block libs %}
-  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-  {{ super() }}
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+{{ super() }}
 {% endblock %}
 
 {% block content %}
-  {{ super() }}
-  {% if page.meta.comments %}
-    <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
-    <!-- Insert generated code here -->
-<script src="https://giscus.app/client.js"
-        data-repo="beiklive/Gtalk_store"
-        data-repo-id="R_kgDOHY4RDQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOHY4RDc4CRrra"
-        data-mapping="title"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
-    <!-- Synchronize Giscus theme with palette -->
-    <script>
-      var giscus = document.querySelector("script[src*=giscus]")
-
-      /* Set palette on initial load */
-      var palette = __md_get("__palette")
-      if (palette && typeof palette.color === "object") {
-        var theme = palette.color.scheme === "slate" ? "dark" : "light"
-        giscus.setAttribute("data-theme", theme) 
-      }
-
-      /* Register event handlers after documented loaded */
-      document.addEventListener("DOMContentLoaded", function() {
-        var ref = document.querySelector("[data-md-component=palette]")
-        ref.addEventListener("change", function() {
-          var palette = __md_get("__palette")
-          if (palette && typeof palette.color === "object") {
-            var theme = palette.color.scheme === "slate" ? "dark" : "light"
-
-            /* Instruct Giscus to change theme */
-            var frame = document.querySelector(".giscus-frame")
-            frame.contentWindow.postMessage(
-              { giscus: { setConfig: { theme } } },
-              "https://giscus.app"
-            )
-          }
-        })
-      })
-    </script>
-  {% endif %}
+{{ super() }}
+{% if page.meta.comments %}
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+<div id="commento"></div>
+{% endif %}
 {% endblock %}
