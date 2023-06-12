@@ -33,13 +33,13 @@ theme:
       primary: white
       scheme: default
       toggle:
-        icon: assets/material/weather-night
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: black
       scheme: slate
       toggle:
-        icon: assets/material/weather-sunny
+        icon: material/weather-sunny
         name: Switch to light mode
   icon:
     admonition:
@@ -74,7 +74,7 @@ theme:
     - announce.dismiss
     - content.code.annotate
 social:
-  - icon: assets/fontawesome/brands/github
+  - icon: fontawesome/brands/github
     link: https://github.com/Ryuseiri
 markdown_extensions:
   # Python Markdown
@@ -112,4 +112,4 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - stylesheets/extra.css
