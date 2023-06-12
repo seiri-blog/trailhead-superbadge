@@ -12,7 +12,8 @@ nav:
   - トップ: index.md
   - ブログ: http://seiri.blog
   - プロファイル: http://seiri.blog/profile
-  - アーカイブ: http://seiri.blog/profile
+  - アーカイブ: http://seiri.blog/archives
+  - カテゴリー: https://seiri.blog/categories
   - 問合せ: dissusion.md
 
 theme:
