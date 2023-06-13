@@ -73,9 +73,34 @@ theme:
     - header.autohide
     - announce.dismiss
     - content.code.annotate
+  plugins: 
+    - meta
+    - blog:
+        blog_dir: .
+    - search
+    - tags
 social:
-  - icon: fontawesome/brands/github
+  - name: github
+    icon: fontawesome/brands/github
     link: https://github.com/Ryuseiri
+  - name: Facebook
+    icon: fontawesome/brands/facebook
+    url: https://www.facebook.com/people/Ryu-Seiri/100087864783411
+  - name: Twitter
+    icon: fontawesome/brands/twitter
+    url: https://twitter.com/Seiriryu
+  - name: Qiita
+    icon: fontawesome/brands/quora
+    url: https://qiita.com/Seiri
+  - name: Blogger
+    icon: fontawesome/brands/blogger
+    url: https://knowstechnic.blogspot.com
+  - name: YouTube
+    icon: fontawesome/brands/youtube
+    url: https://www.youtube.com/channel/UCph3vDUIHt68iR0vtHbChaw
+  - name: bilibili
+    icon: fontawesome/brands/bootstrap
+    url: https://space.bilibili.com/140506788
 markdown_extensions:
   # Python Markdown
   - abbr

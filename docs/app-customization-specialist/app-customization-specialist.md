@@ -1,3 +1,9 @@
+
+---
+draft: false
+date: 2022-06-13
+categories: ["Specialist"]
+---
 # App Customization Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/app-customization-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/app-customization-specialist/app-customization-specialist.md)
 * Trailhead のスーパーバッジ、[App Customization Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_lightning_platform_app_builder) の日本語訳(**非公式**)です。
