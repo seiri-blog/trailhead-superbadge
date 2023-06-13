@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Security Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/security-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/security-specialist/security-specialist.md)
 * Trailhead のスーパーバッジ、[Security Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_security) の日本語訳(**非公式**)です。

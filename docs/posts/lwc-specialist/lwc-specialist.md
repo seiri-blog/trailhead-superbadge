@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Lightning Web Components Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/lwc-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/lwc-specialist/lwc-specialist.md)
 - Trailhead のスーパーバッジ、[Lightning Web Components Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_lwc_specialist) の日本語訳(**非公式**)です。

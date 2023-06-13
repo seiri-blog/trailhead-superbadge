@@ -1,29 +1,24 @@
-site_name: Seiri's Wiki
+site_name: Salesforce Trailhead Superbadge 日本語訳
 copyright: >
   Copyright &copy; 2023
   <a href="http://seiri.blog">seiri's blog</a>
-
-site_url: http://seiri.blog
-repo_url: https://github.com/seiri-blog/Wiki
-site_description: seiri's wiki
+site_description: >
+  Salesforce の Trailhead Superbadge (スーパーバッジ) の日本語訳です。公式の日本語訳(☁️)へのリンクも含みます。
+  原文のアップデートは予告なく行われるため、翻訳が追いつかない場合がありますがご容赦ください。
 site_author: seiri
 nav:
-  - トップ: index.md
-  - 記事一覧: posts/index.md
+  - Superbadge記事一覧: index.md
+  - プロファイル: profile.md
   - ブログ: http://seiri.blog
-  - プロファイル: http://seiri.blog/profile
   - アーカイブ: http://seiri.blog/archives
-  - カテゴリー: https://seiri.blog/categories
-  - 問合せ: contact.md
 extra:
+  homepage: http://seiri.blog/wiki
   generator: false
   consent:
-    title: Seiri's Wiki
+    title: Salesforce Trailhead Superbadge 日本語訳
     description: >- 
-      自分が経験した事や技術共有したいと思います。
-    actions:
-      - accept
-      - manage 
+      Salesforce の Trailhead Superbadge (スーパーバッジ) の日本語訳です。公式の日本語訳(☁️)へのリンクも含みます。
+      原文のアップデートは予告なく行われるため、翻訳が追いつかない場合がありますがご容赦ください。   
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Ryuseiri
@@ -39,30 +34,13 @@ extra:
       link: https://www.youtube.com/channel/UCph3vDUIHt68iR0vtHbChaw
     - icon: fontawesome/brands/bootstrap
       link: https://space.bilibili.com/140506788
-  analytics:
-    provider: google
-    property: G-PLYEQ297HF
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 theme:
   name: material
   custom_dir: overrides
   logo: http://seiri.blog/favicon.ico
   favicon: http://seiri.blog/favicon.ico
   language: ja
-  comments: true
+
   include_search_page: false
   search_index_only: true
   palette:
@@ -112,10 +90,18 @@ theme:
   plugins: 
     - meta
     - blog:
-        post_date_format: full
-        archive_toc: true
+        blog_toc: true
+        enabled: true
+        blog_dir: posts
     - search
     - tags
+    - rss:
+      match_path: posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
 
   
 markdown_extensions:

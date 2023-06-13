@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Advanced Billing Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/advanced-billing-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/advanced-billing-specialist/advanced-billing-specialist.md)
 * Trailhead のスーパーバッジ、[Advanced Billing Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_advanced_billing_specialist) の日本語訳(**非公式**)です。

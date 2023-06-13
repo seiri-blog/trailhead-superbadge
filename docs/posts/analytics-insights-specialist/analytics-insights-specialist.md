@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Tableau CRM and Einstein Discovery Insights Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/analytics-insights-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/analytics-insights-specialist/analytics-insights-specialist.md)
 * Trailhead のスーパーバッジ、[Tableau CRM and Einstein Discovery Insights Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_analytics_insights_specialist) の日本語訳(**非公式**)です。

@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Selling with Sales Cloud Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/sales-cloud-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/sales-cloud-specialist/sales-cloud-specialist.md)
 * Trailheadのスーパーバッジ、[Selling with Sales Cloud Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_selling_sales_cloud_specialist) の日本語訳(**非公式**)です。

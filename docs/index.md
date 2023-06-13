@@ -1,79 +1,50 @@
 ---
-hide:
-  - navigation
-  - toc
+comments: true
+categories: ["Superbadge", "Trailhead", "Specialist"]
 ---
 
-<h1 align="center">👋 Hi , I'm Seiri</h1>
-<h3 align="center">現在AWSとSalesforceを専念しています。</h3>
+# Trailhead Superbadge 日本語訳
 
-<p> 
-  <a href="https://knowstechnic.blogspot.com/">
-    <img src="https://komarev.com/ghpvc/?username=Ryuseiri" alt="Ryuseiri" />
-  </a>
-  <a href="http://twitter.com/Seiriryu">
-    <img height="20" src="https://img.shields.io/twitter/follow/Seiriryu?label=Twitter&logo=twitter&style=flat" />
-  </a>
-  <a href="https://github.com/Ryuseiri">
-    <img height="20" src="https://img.shields.io/github/followers/Ryuseiri?label=follow&logo=github&style=flat" />
-  </a>
-  <a href="https://stackoverflow.com/users/21109751/seiriryu">
-    <img height="20" src="https://img.shields.io/stackexchange/stackoverflow/r/21109751?label=StackOverflow&logo=stack-overflow&style=flat" />
-  </a>
+* Salesforce の Trailhead Superbadge (スーパーバッジ) の日本語訳です。公式の日本語訳(☁️)へのリンクも含みます。
+* 原文のアップデートは予告なく行われるため、翻訳が追いつかない場合がありますがご容赦ください。
 
-  <a href="http://qiita.com/Seiri">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/Seiri/contributions.svg" />
-  </a>
-  <a href="http://qiita.com/Seiri">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/Seiri/posts.svg" />
-  </a>
-  
-  <!-- Label -->
-  <img height="20" src="https://img.shields.io/badge/-Amazon%20AWS-232F3E.svg?logo=amazon-aws&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-Salesforce-fff?style=flat&logo=Salesforce" />
-  <img height="20" src="https://img.shields.io/badge/-git-181717.svg?logo=git&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-GitHub-181717.svg?logo=github&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-Windows-0078D6.svg?logo=windows&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat&logo=Node.js&logoColor=white" />
-  <img height="20" src="https://img.shields.io/badge/-JavaScript-e5cd0c?style=flat&logo=JavaScript&logoColor=000" />
-  <img height="20" src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-Vue-555.svg?logo=vue.js&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat" />
-  <img height="20" src="https://img.shields.io/badge/-Github_Actions-fff?style=flat&logo=github-actions" />
-  <img height="20" src="https://img.shields.io/badge/-blogger-fff?style=flat&logo=blogger" />
-  <img height="20" src="https://img.shields.io/badge/-Bilibili-fff?style=flat&logo=Bilibili" />
-  <img height="20" src="https://img.shields.io/badge/-youtube-red?style=flat&logo=youtube" />
-</p>
 
----
+| スーパーバッジ | キーワード |
+|-|-|
+| [Advanced Apex Specialist](posts/advanced-apex-specialist/advanced-apex-specialist.md)  | Visualforce全般<br>Apex全般|
+| [Apex Specialist](https://developer.salesforce.com/jpblogs/2018/05/apex_specialist_superbadge/) ☁️ | Apexトリガ<br>スケジュールApex|
+| [App Customization Specialist](posts/app-customization-specialist/app-customization-specialist.md) | データモデリング<br>承認プロセス<br>Lightningアプリケーションビルダー|
+| [Aura Components Specialist](posts/aura-components-specialist/aura-components-specialist.md) | Auraコンポーネント全般 |
+| [Business Administration Specialist](posts/business-administration-specialist/business-administration-specialist.md) | データ管理<br>メールテンプレート<br>UI設定|
+| [Data Integration Specialist](https://developer.salesforce.com/jpblogs/2018/06/data_integration_superbadge/) ☁️ | Apex Webサービス<br>コールアウト|
+| [Health Cloud Specialist](posts/health-cloud-specialist/health-cloud-specialist.md) | Health Cloud 全般|
+| [Tableau CRM Data Preparation Specialist](posts/analytics-integration-specialist/analytics-integration-specialist.md) | データフロー|
+| [Tableau CRM and Einstein Discovery Insights Specialist](posts/analytics-insights-specialist/analytics-insights-specialist.md)| SAQL<br>動的バインド|
+| [Lightning Experience Reports and Dashboards Specialist](posts/lex-reports-dashboards-specialist/lex-reports-dashboards-specialist.md) | レポート・ダッシュボード全般|
+| [Lightning Experience Rollout Specialist](posts/lex-rollout-specialist/lex-rollout-specialist.md) | Lightning移行全般|
+| [Lightning Experience Specialist](https://developer.salesforce.com/jpblogs/2018/10/lex_specialist_superbadge/) ☁️ | プロセスビルダー|
+| [Process Automation Specialist](posts/process-automation-specialist/process-automation-specialist.md) | 入力規則<br>プロセスビルダー・フロー<br>クイックアクション|
+| ~~[Reports and Dashboards Specialist](https://developer.salesforce.com/jpblogs/2018/04/reports_and_dashboards_superbadge/)~~ ☁️ | レポート・ダッシュボード全般|
+| [Security Specialist](posts/security-specialist/security-specialist.md) | データセキュリティ<br>ユーザ認証|
+| [Service Cloud Specialist](posts/service-cloud-admin-specialist/service-cloud-admin-specialist.md) | Service Cloud 全般|
+| [Billing Specialist](posts/billing-specialist/billing-specialist.md)| Salesforce CPQ<br>Salesforce Billing|
+| [Selling with Sales Cloud Specialist](posts/sales-cloud-specialist/sales-cloud-specialist.md)| Sales Cloud 全般|
+| [Advanced Billing Specialist](posts/advanced-billing-specialist/advanced-billing-specialist.md)|Salesforce CPQ<br>Salesforce Billing|
+| [Lightning Web Components Specialist](posts/lwc-specialist/lwc-specialist.md)|Lightning Web コンポーネント|
+| [Financial Services Cloud Specialist](posts/fsc-specialist/fsc-specialist.md)|Financial Services Cloud 基礎|
 
-<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=Ryuseiri&theme=onedark&row=1&column=7" /></p>
+## どのスーパーバッジから取り組むべきか
+資格試験と関連性が高いと思われるスーパーバッジは以下の通りです。
 
-<p align="center"> 
-  <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryuseiri&layout=compact&count_private=true&show_icons=true&show_icons=true&theme=onedark"/>
-  <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=Ryuseiri&count_private=true&show_icons=true&show_icons=true&theme=onedark"/>
-</p>
+|資格|スーパーバッジ|
+|-|-|
+|認定アドミニストレータ|Lightning Experience Reports and Dashboards Specialist<br>Business Administration Specialist<br>Security Specialist|
+|認定上級アドミニストレータ|認定アドミニストレータの3つ<br>Process Automation Specialist<br>Lightning Experience Rollout Specialist|
+|認定Platform アプリケーションビルダー|Lightning Experience Reports & Dashboards Specialist<br>Security Specialist<br>Process Automation Specialist<br>App Customization Specialist<br>Lightning Experience Specialist|
+|認定Platform デベロッパー|Apex Specialist<br>Process Automation Specialist |
+|認定上級Platform デベロッパー|Apex Specialist<br>Data Integration Specialist<br>Aura Component Framework Specialist<br>Advanced Apex Specialist|
+|認定Service Cloud コンサルタント|Service Cloud Specialist|
 
-<p align="center"> 
- <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuseiri&theme=dark" width='50%'/>
-</p>
+## 原文参考
 
-<p align="center"> 
-    personal blog
-    https://seiri.blog/
-</p>
-
----
-
-<p align="center"> 
-<img src="https://github.com/RyuSeiri/RyuSeiri/raw/main/SalesforceBadge/2021-03_Badge_SF-Certified_Administrator/2021-03_Badge_SF-Certified_Administrator_500x490px.png" width='10%'/>
-<img src="https://github.com/RyuSeiri/RyuSeiri/raw/main/SalesforceBadge/2021-03_Badge_SF-Certified_JavaScript-Developer/2021-03_Badge_SF-Certified_JavaScript-Developer-I_500x490px.png" width='10%'/>
-<img src="https://github.com/RyuSeiri/RyuSeiri/raw/main/SalesforceBadge/2021-03_Badge_SF-Certified_Platform-Developer-I/2021-03_Badge_SF-Certified_Platform-Developer-I_500x490px.png" width='10%'/>
-<img src="https://github.com/RyuSeiri/RyuSeiri/raw/main/SalesforceBadge/2021-03_Badge_SF-Certified_Platform-Developer-II/2021-03_Badge_SF-Certified_Platform-Developer-II_500x490px.png" width='10%'/>
-</p>
-
-<p align="center"> 
-<a href="https://www.buymeacoffee.com/Seiri"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Seiri" /></a>
-</p>
+[https://github.com/shunkosa/trailhead-superbadge-jp](https://github.com/shunkosa/trailhead-superbadge-jp)

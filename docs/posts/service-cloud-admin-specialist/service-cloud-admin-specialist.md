@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Service Cloud Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/service-cloud-admin-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/service-cloud-admin-specialist/service-cloud-admin-specialist.md)
 * Trailhead のスーパーバッジ、[Service Cloud Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-service-cloud-admin-specialist) の日本語訳(**非公式**)です。

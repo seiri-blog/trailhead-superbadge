@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Aura Components Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/aura-components-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/aura-components-specialist/aura-components-specialist.md)
 - Trailhead のスーパーバッジ、[Aura Components Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_lcf) の日本語訳(**非公式**)です。

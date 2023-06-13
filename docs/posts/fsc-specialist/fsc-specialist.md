@@ -1,3 +1,9 @@
+---
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
+---
+
 # Financial Services Cloud Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/fsc-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/fsc-specialist/fsc-specialist.md)
 * Trailhead のスーパーバッジ、[Financial Services Cloud Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge-fsc-specialist) の日本語訳(**非公式**)です。

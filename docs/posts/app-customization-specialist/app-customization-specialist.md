@@ -1,8 +1,7 @@
-
 ---
-draft: false
-date: 2022-06-13
-categories: ["Specialist"]
+comments: true
+date: "2022-06-13"
+categories: ["Superbadge", "Trailhead", "Specialist"]
 ---
 # App Customization Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/app-customization-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/app-customization-specialist/app-customization-specialist.md)
