@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Advanced Apex Specialist
 [![](https://img.shields.io/badge/-view%20on%20gitbook-blue?logo=markdown)](https://shunkosa.gitbook.io/trailhead-superbadge-jp/advanced-apex-specialist) [![](https://img.shields.io/badge/-view%20on%20github-black?logo=github)](https://github.com/shunkosa/trailhead-superbadge-jp/blob/master/src/advanced-apex-specialist/advanced-apex-specialist.md)
 * Trailhead のスーパーバッジ、[Advanced Apex Specialist](https://trailhead.salesforce.com/content/learn/superbadges/superbadge_aap) の日本語訳(**非公式**)です。

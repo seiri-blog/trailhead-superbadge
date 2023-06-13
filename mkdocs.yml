@@ -1,4 +1,4 @@
-site_name: Seiri
+site_name: Seiri's Wiki
 copyright: >
   Copyright &copy; 2023
   <a href="http://seiri.blog">seiri's blog</a>
@@ -7,25 +7,62 @@ site_url: http://seiri.blog
 repo_url: https://github.com/seiri-blog/Wiki
 site_description: seiri's wiki
 site_author: seiri
-
 nav:
   - トップ: index.md
+  - 記事一覧: posts/index.md
   - ブログ: http://seiri.blog
   - プロファイル: http://seiri.blog/profile
   - アーカイブ: http://seiri.blog/archives
   - カテゴリー: https://seiri.blog/categories
   - 問合せ: contact.md
-
+extra:
+  generator: false
+  consent:
+    title: Seiri's Wiki
+    description: >- 
+      自分が経験した事や技術共有したいと思います。
+    actions:
+      - accept
+      - manage 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ryuseiri
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/people/Ryu-Seiri/100087864783411
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Seiriryu
+    - icon: fontawesome/brands/quora
+      link: https://qiita.com/Seiri
+    - icon: fontawesome/brands/blogger
+      link: https://knowstechnic.blogspot.com
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCph3vDUIHt68iR0vtHbChaw
+    - icon: fontawesome/brands/bootstrap
+      link: https://space.bilibili.com/140506788
+  analytics:
+    provider: google
+    property: G-PLYEQ297HF
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 theme:
   name: material
   custom_dir: overrides
   logo: http://seiri.blog/favicon.ico
   favicon: http://seiri.blog/favicon.ico
   language: ja
-  # font:
-  #   text: Roboto
-  #   code: Roboto Mono
-
+  comments: true
   include_search_page: false
   search_index_only: true
   palette:
@@ -59,14 +96,13 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.footer
     - navigation.sections
     - navigation.expand
     - navigation.indexes
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
     - navigation.top
-    # - announce.dismiss
     - search.suggest
     - search.highlight
     - search.share
@@ -76,31 +112,12 @@ theme:
   plugins: 
     - meta
     - blog:
-        blog_dir: .
+        post_date_format: full
+        archive_toc: true
     - search
     - tags
-social:
-  - name: github
-    icon: fontawesome/brands/github
-    link: https://github.com/Ryuseiri
-  - name: Facebook
-    icon: fontawesome/brands/facebook
-    url: https://www.facebook.com/people/Ryu-Seiri/100087864783411
-  - name: Twitter
-    icon: fontawesome/brands/twitter
-    url: https://twitter.com/Seiriryu
-  - name: Qiita
-    icon: fontawesome/brands/quora
-    url: https://qiita.com/Seiri
-  - name: Blogger
-    icon: fontawesome/brands/blogger
-    url: https://knowstechnic.blogspot.com
-  - name: YouTube
-    icon: fontawesome/brands/youtube
-    url: https://www.youtube.com/channel/UCph3vDUIHt68iR0vtHbChaw
-  - name: bilibili
-    icon: fontawesome/brands/bootstrap
-    url: https://space.bilibili.com/140506788
+
+  
 markdown_extensions:
   # Python Markdown
   - abbr
@@ -137,4 +154,4 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
