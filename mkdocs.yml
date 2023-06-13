@@ -1,7 +1,7 @@
 site_name: Salesforce Trailhead Superbadge 日本語訳
 copyright: >
   Copyright &copy; 2023
-  <a href="http://seiri.blog">seiri's blog</a>
+  <a href="https://seiri.blog">seiri's blog</a>
 site_description: >
   Salesforce の Trailhead Superbadge (スーパーバッジ) の日本語訳です。公式の日本語訳(☁️)へのリンクも含みます。
   原文のアップデートは予告なく行われるため、翻訳が追いつかない場合がありますがご容赦ください。
@@ -9,10 +9,10 @@ site_author: seiri
 nav:
   - Superbadge記事一覧: index.md
   - プロファイル: profile.md
-  - ブログ: http://seiri.blog
-  - アーカイブ: http://seiri.blog/archives
+  - ブログ: https://seiri.blog
+  - アーカイブ: https://seiri.blog/archives
 extra:
-  homepage: http://seiri.blog/wiki
+  homepage: https://seiri.blog/wiki/
   generator: false
   consent:
     title: Salesforce Trailhead Superbadge 日本語訳
@@ -37,8 +37,8 @@ extra:
 theme:
   name: material
   custom_dir: overrides
-  logo: http://seiri.blog/favicon.ico
-  favicon: http://seiri.blog/favicon.ico
+  logo: https://seiri.blog/favicon.ico
+  favicon: https://seiri.blog/favicon.ico
   language: ja
 
   include_search_page: false
