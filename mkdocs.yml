@@ -89,20 +89,10 @@ theme:
     - content.code.annotate
   plugins: 
     - meta
-    - blog:
-        blog_toc: true
-        enabled: true
-        blog_dir: posts
+    - blog
     - search
     - tags
-    - rss:
-      match_path: posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
-
+    - rss
   
 markdown_extensions:
   # Python Markdown
