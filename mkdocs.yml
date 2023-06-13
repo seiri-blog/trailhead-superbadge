@@ -5,7 +5,7 @@ copyright: >
 
 site_url: http://seiri.blog
 repo_url: https://github.com/seiri-blog/Wiki
-site_description: seiri's blog
+site_description: seiri's wiki
 site_author: seiri
 
 nav:
@@ -14,7 +14,7 @@ nav:
   - プロファイル: http://seiri.blog/profile
   - アーカイブ: http://seiri.blog/archives
   - カテゴリー: https://seiri.blog/categories
-  - 問合せ: dissusion.md
+  - 問合せ: contact.md
 
 theme:
   name: material
